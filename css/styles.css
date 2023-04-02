@@ -1,3 +1,14 @@
 * {
-    color: purple;
+    color: black;
+    background-color: blanchedalmond;
+}
+
+.header {
+    color: azure;
+    background-color: darkblue;
+}
+
+.recipe-body {
+    color: darkcyan;
+    background-color: rgb(62, 94, 122);
 }
