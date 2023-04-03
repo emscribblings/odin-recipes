@@ -1,14 +1,41 @@
 * {
-    color: black;
-    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
-.header {
-    color: azure;
-    background-color: darkblue;
+img.featured {
+    height: auto;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-.recipe-body {
-    color: darkcyan;
-    background-color: rgb(62, 94, 122);
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+button,
+.button-link {
+    background-color: rgb(96, 183, 255);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.navigation-bar {
+    background-color: rgba(226, 128, 128, 0.628);
+    padding: 10px;
+    text-align: right;
+}
+
+.navigation-bar .bar-item {
+    padding-right: 10px;
+    font-weight: 800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.body-text {
+    padding: 80px;
 }
